@@ -4,10 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skate Hub - Projeto Bootstrap</title>
-    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    
+<body style="background-color: #1a1a1a">
+
+    <main>
+    <nav class="navbar" style="background-color: #1a1a1a">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light fw-semibold fs-1 p-4">SKATE HUB</a>
+                <form class="d-flex" role="search">
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-light me-md-2 fw-bold" type="button">HOME</button>
+                    <button class="btn btn-light me-md-2 fw-bold" type="button">MANOBRAS</button>
+                    <button class="btn btn-light me-md-3 fw-bold" type="button">ATLETAS</button>
+                    </div>
+                    <input class="form-control text-dark me-md-2" type="search" placeholder="Pesquisar" aria-label="Search"/>
+                    <button class="btn btn-light text-dark fw-bold me-3" type="submit">BUSCAR</button>
+                </form>
+        </div>
+    </nav>
+
+    <section class="background">
+        <img src="https://images.unsplash.com/photo-1602878714398-b28d40926846?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="background-img"
+            alt="Pessoa andando de skate">
+
+        <div class="título-background">
+            <h2>Domine o skate</h2>
+        </div>
+
+        <div class="conteúdo-background">
+            <h3>Aprenda manobras e evolua mais rápido!</h3>
+        </div>
+    </section>
+
+        <div class="texto-conteudo">Comece por aqui</div>
+
+        <div class="container mt-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4 me-2 mb-5 justify-content-center">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.unsplash.com/photo-1617034840325-b10d81550042?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Manobra de skate Ollie">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mb-3">Ollie</h5>
+                        <p class="tag fw-semibold">Iniciante</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.unsplash.com/photo-1573054022697-3af201441528?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fHNrYXRlJTIwYmxhY2slMjBhbmQlMjB3aGl0ZXxlbnwwfDB8MHx8fDI%3D" class="card-img-top" alt="Manobra de skate Kickflip">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mb-3">Kickflip</h5>
+                        <p class="tag fw-semibold">Intermediário</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.unsplash.com/photo-1649281610716-94e4ee026d91?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Manobra de skate Heelflip">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold mb-3">Heelflip</h5>
+                            <p class="tag fw-semibold">Difícil</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card p-4 text-light style="background-color: #1a1a1a style="width: 300px; border-radius: 10px;">
+                <h3 class="text-center mb-4">Filtrar</h3>
+                    <div class="mb-3">
+                        <label class="form-label">Categoria:</label>
+                            <select class="form-select">
+                                <option>Todos</option>
+                                <option>Iniciante</option>
+                                <option>Intermediário</option>
+                                <option>Difícil</option>
+                            </select>
+                        </div>
+                    </div>
+        </div>
+    </main>
+
+        <footer class="text-light text-center p-4 mt-5 m-0 p0" style="background-color: #333;">
+    <p class="mb-0 fs-5">© 2026 Skate Hub - Criado por Iale Leles</p>
+</footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
