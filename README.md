@@ -8,18 +8,17 @@ No trabalho dessa semana vamos alterar o projeto para que a responsividade da ho
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Iale Leles de Almeida
+- Matricula: 927707
+- Proposta de projeto escolhida: Skate Hub - Site para encontrar manobras de acordo com o nível de dificuldade.
+- Breve descrição sobre seu projeto: O projeto Skate Hub é um site para fãs de skate que querem aprender manobras de acordo com o seu nível de habilidade. Além disso, o site conta com o filtro de acordo com o nível de dificuldade das manobras, para facilitar os usuários.
 
 ## Print da versão responsiva com Bootstrap [DESKTOP]
-
-<<  COLOQUE A IMAGEM AQUI >>
+![alt text](img/printtela-bootstrap1.png)
+![alt text](img/printtela-bootstrap2.png)
 
 ## Print da versão responsiva com Bootstrap [MOBILE] (*)
-
-<<  COLOQUE A IMAGEM AQUI >>
-
-
-(*) Utilize as ferramentas do desenvolvedor do seu navegador para colocar no modo reponsivo, escolha um celular qualquer e recarregue a página antes de tirar o print. 
+![alt text](img/printtela-bootstrap(mobile)1.png)
+![alt text](img/printtela-bootstrap(mobile)2.png)
+![alt text](img/printtela-bootstrap(mobile)3.png)
+![alt text](img/printtela-bootstrap(mobile)4.png)
