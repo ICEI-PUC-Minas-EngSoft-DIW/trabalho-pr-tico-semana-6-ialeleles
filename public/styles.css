@@ -24,7 +24,7 @@ body {
     top: 25%;
     left: 5%;
     color: white;
-    font-size: 48px;
+    font-size: clamp(36px, 4vw, 48px);
     font-weight: bold;
     text-align: left;
 }
@@ -34,14 +34,14 @@ body {
     top: 35%;
     left: 5%;
     color: white;
-    font-size: 24px;
+    font-size: clamp(24px, 4vw, 24px);;
     font-weight: bold;
     text-align: left;
 }
 
 .texto-conteudo {
     color: white;
-    font-size: 40px;
+    font-size: clamp(30px, 4vw, 40px);
     font-weight: bold;
     text-align: center;
     margin-top: 50px;
@@ -68,4 +68,5 @@ body {
     background-color: #333;
     color: white;
     border-radius: 12px;
+    height: 100%;
 }
